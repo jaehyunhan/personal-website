@@ -29,7 +29,7 @@ body {
   }
 
   
-    .btn a:hover {
+    .btn a:hover a:active {
     border-radius: 4px;
     background: #fbd2d7;
     padding: 10px;
