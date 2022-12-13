@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Jaehyun Han</title>
+        <link rel = "icon" href = "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/globe-showing-asia-australia_1f30f.png">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://kit.fontawesome.com/9691729dd6.js" crossorigin="anonymous"></script>
+        <script src = "../main.js" defer></script>
+    </head>
+
+    <body>
+        <nav class = "navbar">
+            <div class = "logo">
+                <input type="checkbox" id="check"> 
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <a href = "main.html" class = "logo">Jaehyun Han</a>
+            </div>
+            <div class = "dropdown">
+                <button onclick = "dropdown()" class = "dropbtn">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "dropdown-menu" class = "dropdown-content">
+                    <li><a href = "index.html" class = active>Home</a></li>
+                    <li><a href = "resume.html" class = btn>Resume</a></li>
+                    <li><a href = "work.html" class = btn>Work</a></li>
+                    <li><a href = "projects.html" class = btn>Projects</a></li>
+                    <li><a href = "more.html" class = btn>And More</a></li>
+                    <li><a href = "contact.html" class = btn>Contact</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <!--about section-->
+            <section class = "home">
+                <div class = "section-inner-1" style = "float: left;">
+                    <!-- Profile picture -->
+                    <img class = "responsive" style = "max-width: 100%; height: auto;" alt = "Profile" src = "https://user-images.githubusercontent.com/45862440/157793704-7a918de7-e6ae-4d31-a11d-6dad3320a830.jpg">
+                </div>
+                <!-- Paragraph introduction -->
+                <div class = "section-inner-2" style = "float: right;">
+                    <h3>
+                        <span style = "font-weight: bold; background-color: lightblue">Data analyst</span>
+                        and  <span style = "font-weight: bold; background-color: lightblue">researcher</span>
+                        studying issues that threaten  
+                        <span style = "font-weight: bold; text-decoration: underline; text-decoration-color: lightblue; text-decoration-thickness: 3px;">
+                        international security</span> <br><br>
+                    </h3>
+                    <p>
+                        <i>Hello-</i> I'm a Research Assistant for the iDeas Lab at the Center for Strategic and International Studies (CSIS) based in Washington D.C., United States. I'm passionate about working with numbers to analyze issues that may threaten international security. <br><br>
+                        In my current position, I use data to tell stories and draw data-driven analytical results. I work closely with multimedia producers, web developers, and designers, as well as domain experts, to make digital products involving data analysis and visualization. <br><br>
+                        I mainly use Python, R, and Excel to perform data analysis and Flourish and Datawrapper for visualization. I'm also experienced in statistical modeling and programming languages, such as C/++, Java, and SQL, as well as geospatial analysis using QGIS and ArcGIS. Born and Raised in South Korea, I'm a native Korean speaker. <br><br>
+                        My thematic focus is the intersection of international security and supply chain, commerce, and technology and the regional focus is East Asia, specifically China and Korea.<br><br>
+                        I would love to hear from you about future collaborations and opportunities. Let's connect!<br><br>
+                    </p> 
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            This website is built and maintained by Jaehyun Han <br><br>  
+            Copyright ©-All rights are reserved
+        </footer>
+
+    </body>
+</html>
