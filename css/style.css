@@ -156,26 +156,42 @@ footer {
     justify-content: space-between;
 }
 
-/*
 
 .content {
+    overflow-x: auto; 
+    scrollbar-color: lightpink lightgrey; 
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: nowrap;
 }
-
-.card { 
-    width: 30%; 
-    justify-items: center;
-    padding: 5px; 
-}
-*/
-
+/*
 .content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
 }
 
 .card {padding: 5px; }
+*/
+
+::-webkit-scrollbar{
+    background-color: lightgrey;  
+    width: 15px; 
+}    
+ 
+::-webkit-scrollbar-thumb{
+    background-color: lightpink;  
+    border-radius: 20px; 
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.3);
+}
+
+
+
+.card { 
+    width: 30%; 
+    justify-items: center;
+    padding: 5px; 
+    flex: 0 0 auto;
+    scrollbar-color: lightpink lightgrey; 
+}
 
 
 .card img {
