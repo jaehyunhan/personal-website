@@ -174,7 +174,7 @@ footer {
 
 ::-webkit-scrollbar{
     background-color: lightgrey;  
-    width: 20px; 
+    width: 15px; 
 }    
  
 ::-webkit-scrollbar-thumb{
