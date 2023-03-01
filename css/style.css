@@ -163,6 +163,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
 }
+
 /*
 .content {
     display: grid;
@@ -389,6 +390,7 @@ footer {
     }
 
     .work h2 {
+        color: black;
         font-size: 17px; 
     }
 
