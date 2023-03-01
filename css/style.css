@@ -156,6 +156,9 @@ footer {
     justify-content: space-between;
 }
 
+.work div {
+    padding-bottom: 5%;
+}
 
 .content {
     overflow-x: auto; 
